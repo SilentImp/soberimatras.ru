@@ -15,6 +15,8 @@
     <script src="js/QuestionController.js" async="async"></script>
     <script src="js/CallbackController.js" async="async"></script>
     <script src="js/NavigationController.js" async="async"></script>
+    <script src="js/WindowController.js" async="async"></script>
+    <script src="js/ResponcesController.js" async="async"></script>
 </head>
 
 <body>
@@ -54,46 +56,48 @@
                 <div class="next"></div>
                 <div class="prev"></div>
             </nav>
-            <section class="selected slide-1">
-                <div class="wrapper">
-                    <div class="abstract">
-                        <h2 class="title">Просыпайтесь с удовольствием</h2>
-                        <p>Здоровый сон - залог успешного дня. Пусть каждое ваше утро будет добрым.</p>
-                    </div><a href="#">Вместе с Соня</a>
-                </div>
-            </section>
-            <section class="slide-2">
-                <div class="wrapper">
-                    <div class="abstract">
-                        <h2 class="title">Всегда рядом</h2>
-                        <p>“Соня” это сеть фирменных салонов с едиными стандартами цены и качества. Наши продавцы консультанты ответят на все интересующие вас вопросы и помогут создать ваш идеальный матрас.</p>
-                    </div><a href="#">Адреса фирменных салонов</a>
-                </div>
-            </section>
-            <section class="slide-3">
-                <div class="wrapper">
-                    <div class="abstract">
-                        <h2 class="title">Индивидуальный подход к каждому</h2>
-                        <p>Секрет создания идеального матраса - индивидуальный подход. Мы используем уникальную методику подбора матраса и дарим вам комфорт и идеальный сон.</p>
-                    </div><a href="#">Наш подход</a>
-                </div>
-            </section>
-            <section class="slide-4">
-                <div class="wrapper">
-                    <div class="abstract">
-                        <h2 class="title">Сервис с заботой</h2>
-                        <p>Мы любим наших клиентов и заботимся о них. Поэтому мы изготавливаем матрас за рекордные 3 дня и доставляем его в удобное для вас время.</p>
-                    </div><a href="#">Подробнее о схеме работы</a>
-                </div>
-            </section>
-            <section class="slide-5">
-                <div class="wrapper">
-                    <div class="abstract">
-                        <h2 class="title">Обладатель знака оренбургского качества</h2>
-                        <p>Мы постоянно контролируем качество продукции на всех этапах производства, что гарантирует нашим клиентам отличный продукт и здоровый сон.</p>
-                    </div><a href="#">О нас</a>
-                </div>
-            </section>
+            <div class="slides">
+                <section class="selected slide-1 slide">
+                    <div class="wrapper">
+                        <div class="abstract">
+                            <h2 class="title">Просыпайтесь с удовольствием</h2>
+                            <p>Здоровый сон - залог успешного дня. Пусть каждое ваше утро будет добрым.</p>
+                        </div><a href="#">Вместе с Соня</a>
+                    </div>
+                </section>
+                <section class="slide-2 slide">
+                    <div class="wrapper">
+                        <div class="abstract">
+                            <h2 class="title">Всегда рядом</h2>
+                            <p>“Соня” это сеть фирменных салонов с едиными стандартами цены и качества. Наши продавцы консультанты ответят на все интересующие вас вопросы и помогут создать ваш идеальный матрас.</p>
+                        </div><a href="#">Адреса фирменных салонов</a>
+                    </div>
+                </section>
+                <section class="slide-3 slide">
+                    <div class="wrapper">
+                        <div class="abstract">
+                            <h2 class="title">Индивидуальный подход к каждому</h2>
+                            <p>Секрет создания идеального матраса - индивидуальный подход. Мы используем уникальную методику подбора матраса и дарим вам комфорт и идеальный сон.</p>
+                        </div><a href="#">Наш подход</a>
+                    </div>
+                </section>
+                <section class="slide-4 slide">
+                    <div class="wrapper">
+                        <div class="abstract">
+                            <h2 class="title">Сервис с заботой</h2>
+                            <p>Мы любим наших клиентов и заботимся о них. Поэтому мы изготавливаем матрас за рекордные 3 дня и доставляем его в удобное для вас время.</p>
+                        </div><a href="#">Подробнее о схеме работы</a>
+                    </div>
+                </section>
+                <section class="slide-5 slide">
+                    <div class="wrapper">
+                        <div class="abstract">
+                            <h2 class="title">Обладатель знака оренбургского качества</h2>
+                            <p>Мы постоянно контролируем качество продукции на всех этапах производства, что гарантирует нашим клиентам отличный продукт и здоровый сон.</p>
+                        </div><a href="#">О нас</a>
+                    </div>
+                </section>
+            </div>
         </article>
         <article id="page-2">
             <div class="wrapper">
@@ -304,8 +308,7 @@
                             <img src="images/spoiler/face-2.jpg" alt="Фотография" /><cite>Матрас понравился. Выбрала не самый дорогой вариант, но сделали мне его как раз таким, как я и хотела - в меру жесткий, упругий, для меня идеально. Спина больше не болит, каждое утро доброе!</cite><q class="author">Ольга Николаевна</q>
                         </div>
                     </div>
-                    <nav><a href="#responce-1">1</a><a href="#responce-3" class="selected">2</a><a href="#responce-6">3</a>
-                    </nav>
+                    <nav></nav>
                 </div>
             </div>
         </article>
