@@ -1,0 +1,104 @@
+#page-8
+  height 500px
+  background url("../images/bg-about.jpg") 50% 50% no-repeat
+  background-size cover 
+  color #FFF
+  line-height 500px
+  text-align center
+  .wrapper
+    display inline-block
+    vertical-align middle
+    width 930px  
+    margin-top -27px
+    padding 0 10px
+    line-height 18px
+    .title
+      font-size 36px
+      line-height 72px
+      font-weight bold
+      text-transform uppercase
+    p
+      font-size 16px
+      line-height 24px
+      max-width 910px
+      margin 0 auto
+      &.quality
+        color #F39C12
+        position relative
+        a
+          color #F39C12
+          text-decoration underline 
+          display inline-block
+          position relative
+          &:before
+            content "."
+            display block
+            position absolute
+            overflow hidden
+            font-size 0
+            line-height 0
+            text-indent -999px
+            left -41px
+            top 5px
+            width 46px
+            height 31px
+            background url("../images/q-left.png") 50% 50% no-repeat
+            background-size contain
+          &:after
+            content "."
+            display block
+            position absolute
+            overflow hidden
+            font-size 0
+            line-height 0
+            text-indent -999px
+            left 100%
+            top 5px
+            margin-left -5px
+            width 46px
+            height 31px
+            background url("../images/q-right.png") 50% 50% no-repeat
+            background-size contain
+    .abstract
+      &:after
+        height 0
+        font-size 0
+        line-height 0
+        display block
+        margin 20px auto 0
+        overflow hidden
+        content ""
+        border-bottom 2px solid #fff
+        width 90px
+    ul
+      margin-top 50px
+      font-size 0
+      text-align center
+      li
+        vertical-align top
+        display inline-block
+        margin-left 120px
+        &:first-child
+          margin-left 0
+        p
+          font-size 18px
+          line-height 24px
+          font-weight bold
+          color #fff 
+          text-transform uppercase
+        span
+          display inline-block
+          padding 0 15px
+          min-width 30px 
+          margin-bottom 15px
+          white-space nowrap
+          height 60px
+          color #FFF
+          font-size 36px
+          line-height 60px
+          font-weight bold
+          text-align center 
+          border 2px solid #fff
+          &:hover
+            color #475A6C 
+            background-color #FFF 

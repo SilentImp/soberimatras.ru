@@ -1,0 +1,98 @@
+#page-7
+  height 460px
+  line-height 460px
+  text-align center
+  .wrapper
+    display inline-block
+    vertical-align middle
+    width 930px
+    padding 0 10px
+    line-height 18px
+    margin-top -30px
+    .title
+      font-size 36px
+      line-height 72px
+      font-weight bold
+      text-transform uppercase
+      color #29538A
+      &:after
+        height 0
+        font-size 0
+        line-height 0
+        display block
+        margin 7px auto 0
+        overflow hidden
+        content ""
+        border-bottom 2px solid #010101
+        width 90px 
+    .responces
+      margin-top 50px
+      position relative
+      nav
+        text-align center
+        margin-top 15px
+        a
+          display inline-block
+          overflow hidden
+          text-indent -999px
+          width 23px
+          height 23px
+          position relative
+          font-size 0
+          line-height 0
+          &.selected:before,
+          &:hover:before
+            background-color #f39c12 
+          &:before
+            content "."
+            display block
+            position absolute
+            top 0
+            left 0
+            right 0
+            bottom 0
+            margin auto
+            overflow hidden
+            text-indent -999px
+            font-size 0
+            line-height 0
+            width 12px
+            height 12px
+            border-radius 100%
+            background-color #b2b2b2 
+            
+      .responce-list
+        width 915px
+        overflow hidden
+        white-space nowrap
+        .responce
+          text-align left
+          vertical-align top
+          width 290px
+          display inline-block
+          overflow hidden
+          position relative
+          min-height 130px
+          margin-left 35px
+          padding 15px 0 0 150px 
+          &:first-child
+            margin-left 0
+          img
+            position absolute
+            top 0
+            left 0
+            border-radius 100%
+            width 130px
+            height 130px
+          cite
+            font-size 14px
+            line-height 22px
+            white-space normal
+          q
+            color #666
+            display block
+            font-size 14px
+            line-height 18px
+            font-style italic
+            margin-top 10px 
+            

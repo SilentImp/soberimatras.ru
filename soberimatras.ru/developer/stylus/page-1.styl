@@ -1,0 +1,116 @@
+#page-1
+  position relative
+  text-align center
+  color #fff
+  height 680px
+  nav
+    .next,
+    .prev
+      position absolute
+      top 50%
+      left 50%
+      margin-top -38px
+      height 76px
+      width 31px
+      overflow hidden
+      background-size 62px 76px  
+      background-repeat no-repeat
+      background-image url("../images/arrows.png") 
+      background-position 0 0 
+      z-index 3
+      margin-left -481px
+      cursor pointer
+      transition opacity .25s
+      opacity 1
+      &:hover
+        opacity .25
+    .next
+      background-position 100% 0
+      margin-left 450px
+      
+  section
+    height 680px
+    line-height 680px
+    font-size 0
+    position absolute
+    top 0
+    left 0
+    bottom 0
+    right 0
+    margin 0
+    background-color #5e7ba0
+    opacity 0
+    z-index 0
+    transition opacity .75s
+    pointer-events none
+    background-repeat no-repeat
+    background-position 50% 50% 
+    background-size cover
+    &.slide-1
+      background-image url('../images/bg-slide-1.jpg')
+    &.slide-2
+      background-image url('../images/bg-slide-2.jpg')
+    &.slide-3
+      background-image url('../images/bg-slide-3.jpg')
+    &.slide-4
+      background-image url('../images/bg-slide-4.jpg')
+    &.slide-5
+      background-image url('../images/bg-slide-5.jpg')
+    &.selected
+      opacity 1 
+      z-index 1
+      pointer-events all
+    .wrapper
+      display inline-block
+      vertical-align middle
+      width 930px
+      padding 0 10px
+      font-size 0
+      line-height 18px
+      &:after
+        content "."
+        display block
+        width 36px
+        height 57px
+        margin 50px auto 0
+        background url("../images/scroll.png")  50% 50% no-repeat
+        background-size 36px 57px
+        overflow hidden
+        text-indent -9999px
+        z-index 20
+      a
+        height 50px
+        display inline-block
+        padding 0 30px
+        color #FFF
+        background-color #f39c12
+        margin-top 50px
+        text-transform uppercase
+        text-decoration none
+        line-height 50px
+        font-size 16px
+        font-weight bold   
+      .abstract
+        .title 
+          font-size 48px
+          line-height 52px
+          text-transform uppercase
+          color #FFF
+          font-weight bold
+          margin 0 0 30px
+        p
+          font-size 16px
+          line-height 24px
+          color #FFF
+          margin auto
+          max-width 560px
+        &:after
+          height 0
+          font-size 0
+          line-height 0
+          display block
+          margin 30px auto 0
+          overflow hidden
+          content ""
+          border-bottom 2px solid #fff
+          width 90px

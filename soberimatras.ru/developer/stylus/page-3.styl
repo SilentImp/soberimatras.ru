@@ -1,0 +1,144 @@
+#page-3
+  min-height 880px
+  background url("../images/bg-advantages.jpg") 50% 50% no-repeat
+  background-size cover 
+  color #29538a
+  line-height 880px
+  text-align center
+  .wrapper
+    display inline-block
+    vertical-align middle
+    width 930px
+    margin-top -27px
+    padding 0 10px
+    line-height 18px
+    .advantages
+      margin-top 50px
+      font-size 0
+      line-height 0
+      white-space nowrap
+      .column
+        white-space normal
+        display inline-block
+        vertical-align middle
+        width 465px
+        border-right 1px solid #fff
+        .advantage
+          background-color #FFF
+          padding 40px 40px 40px 30px
+          margin-right 60px  
+          margin-bottom 20px
+          position relative
+          color #000
+          text-align left
+          .sub-title
+            line-height 24px
+            font-size 24px
+            text-transform uppercase
+            font-weight  700
+            color #29538A
+            margin-bottom 20px
+          li
+            font-size 14px
+            line-height 20px
+            margin-bottom 10px
+            padding-left 20px
+            position relative
+            &:before
+              content ""
+              display block
+              position absolute
+              width 6px
+              height 6px
+              border-radius 100%
+              left 0
+              top 7px
+              background-color #29538a 
+          &:last-child
+            margin-bottom 0
+          &:hover
+            background-color #29538a
+            li:before
+              background-color #76A5E3 
+            li,
+            .sub-title
+              color #FFF 
+            &:before
+              background-color #29538a
+            &:after
+              border-color  transparent transparent transparent #29538a
+          &:after
+            content ""
+            display block
+            position absolute
+            height 0
+            width 0
+            overflow hidden
+            font-size 0
+            line-height 0
+            left 100%
+            top 50%
+            margin -16px 0 0 0
+            border-style solid
+            border-width 16px 0 16px 23px
+            border-color  transparent transparent transparent #FFF
+          &:before
+            content ""
+            display block
+            position absolute
+            height 10px
+            width 10px
+            border-radius 100%
+            border 5px solid #fff
+            background-color #fff 
+            overflow hidden
+            font-size 0
+            line-height 0
+            left 100%
+            top 50%
+            margin -10px 0 0 51px
+            
+            
+      .column+.column
+        border-right-style none
+        border-left 1px solid #fff
+        margin-left -1px 
+        .advantage
+          margin-right 0
+          margin-left 60px
+          &:hover
+            &:after
+              border-color  transparent #29538a transparent transparent
+          &:before
+            left auto
+            right 100%
+            margin -10px 50px 0 0
+          &:after
+            left auto
+            right 100%
+            border-width 16px 23px 16px 0
+            border-color  transparent #FFF transparent transparent
+            
+    .title
+      font-size 36px
+      line-height 72px
+      font-weight bold
+      text-transform uppercase
+    .abstract
+      .sub-title
+        font-size 24px
+        line-height 32px
+        max-width 910px
+        margin 0 auto
+        white-space nowrap
+        font-weight 200
+      &:after
+        height 0
+        font-size 0
+        line-height 0
+        display block
+        margin 20px auto 0
+        overflow hidden
+        content ""
+        border-bottom 2px solid #000
+        width 90px

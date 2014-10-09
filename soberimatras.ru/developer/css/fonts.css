@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../fonts/ClearSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ClearSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ClearSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ClearSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ClearSans-Light.svg#47ddcabdb5fe43f5df4b99f5095b831d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../fonts/ClearSans-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ClearSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ClearSans-Italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ClearSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ClearSans-Italic.svg#e68239b5bc4734e109c576eea59effe7') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../fonts/ClearSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ClearSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ClearSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ClearSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ClearSans-Regular.svg#7953af41a877b5115bfa86d8b5145f1e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Clear Sans';
+  src: url('../fonts/ClearSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ClearSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/ClearSans-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/ClearSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/ClearSans-Bold.svg#791e63096756eb788d8817d48f671383') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+

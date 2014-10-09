@@ -1,0 +1,163 @@
+.ask
+  position absolute
+  bottom 350px
+  left 50%
+  margin-left 198px
+  width 266px
+  text-align center
+  line-height 50px
+  background-color #F39C12
+  color #FFF  
+  text-transform uppercase
+  text-decoration none
+  font-weight bold
+  font-size 18px
+  z-index 1
+
+.question-form
+  position absolute
+  bottom 0
+  line-height 348px
+  text-align center
+  right 50%
+  margin 0 -465px 0 0 
+  width 930px
+  height 348px
+  z-index 2
+  background-color #f39c12 
+  color #FFF
+  transition bottom .25s
+  &.validate
+    textarea:invalid
+      border-color #f00
+    input:invalid
+      border-color #f00
+  &.open
+    bottom 350px
+  .close
+    position absolute
+    font-size 0
+    line-height 0
+    overflow hidden
+    text-indent -999px
+    width 36px
+    height 33px
+    background url('../images/close.png') 50% 50% no-repeat
+    background-size 12px 11px
+    right 0px
+    top 0px
+  fieldset
+    display inline-block
+    vertical-align middle
+    line-height 0
+    .title
+      font-size 24px
+      line-height 28px
+      font-weight bold
+      text-transform uppercase
+      margin-bottom 25px
+      color #FFF 
+    input
+      border 1px solid #fff
+      background none
+      margin 0 12px 30px
+      padding 10px 
+      width 235px
+      height 15px
+      font-size 13px
+      line-height 15px
+      outline none
+      color #fff
+      &::-webkit-input-placeholder
+        color #fff
+      &:-moz-placeholder
+        color #fff
+      &::-moz-placeholder
+        color #fff
+      &:-ms-input-placeholder
+        color #fff
+      &:focus
+        border-color #f9ce89
+      
+    textarea
+      display block
+      width 810px
+      height 54px
+      resize none
+      background none
+      color #FFF 
+      border 1px solid #FFF
+      box-shadow none
+      padding 10px
+      font-size 13px
+      line-height 18px
+      margin 0 auto 30px
+      outline none
+      color #fff
+      &::-webkit-input-placeholder
+        color #fff
+      &:-moz-placeholder
+        color #fff
+      &::-moz-placeholder
+        color #fff
+      &:-ms-input-placeholder
+        color #fff
+      &:focus
+        border-color #f9ce89
+        
+    button
+      background #fff
+      color #f39c12
+      font-size 12px
+      line-height 35px
+      height 35px
+      padding 0 30px
+      font-weight bold
+      text-transform uppercase
+      border-style none
+      box-shadow none   
+      cursor pointer
+  
+.question-asked
+  display none
+  position fixed
+  top 0
+  bottom 0
+  left 0
+  right 0
+  margin auto
+  width 611px
+  height 155px
+  line-height 155px
+  background #f39c12
+  color #FFF 
+  text-align center
+  z-index 1001
+  .close
+    position absolute
+    font-size 0
+    line-height 0
+    overflow hidden
+    text-indent -999px
+    width 36px
+    height 33px
+    background url('../images/close.png') 50% 50% no-repeat
+    background-size 12px 11px
+    right 0px
+    top 0px
+  .wrapper
+    display inline-block
+    vertical-align middle
+    line-height 0
+    top -5px
+    position relative
+    .title
+      font-size 24px
+      line-height 28px
+      font-weight bold
+      text-transform uppercase
+      margin-bottom 7px
+    p
+      font-size 16px
+      line-height 18px
+      

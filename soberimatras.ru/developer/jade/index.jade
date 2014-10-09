@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+html(lang="uk")
+  head
+
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge;chrome=1")
+    meta(name="viewport", content="maximum-scale = 1.0, user-scalable = no, width = device-width, initial-scale = 1.0")
+
+    title Салон матрасов «Соня»
+
+    script(src="js/modernizr/modernizr.js")
+    link(rel="stylesheet", href="css/styles.css")
+    script(src="js/jquery/dist/jquery.min.js")
+    script(src="js/jquery.scrollTo/jquery.scrollTo.min.js")
+    script(src="js/jquery.localScroll/jquery.localScroll.min.js")
+    script(src="js/jquery.maskedinput/jquery.maskedinput.min.js")
+    
+    script(src="js/QuestionController.js", async)
+    script(src="js/CallbackController.js", async)
+    script(src="js/NavigationController.js", async)
+    script(src="js/WindowController.js", async)
+    script(src="js/ResponcesController.js", async)
+  body
+
+    nav.page-navigation
+      a.page-1(href="#page-1") 
+        span Всегда рядом
+      a.page-2(href="#page-2") 
+        span Что нового?
+      a.page-3(href="#page-3") 
+        span Преимущества
+      a.page-4(href="#page-4") 
+        span Индивидуальность
+      a.page-5(href="#page-5") 
+        span Закажите звонок
+      a.page-6(href="#page-6") 
+        span Как это работает
+      a.page-7(href="#page-7") 
+        span Отзывы
+      a.page-8(href="#page-8") 
+        span О нас 
+      a.page-9(href="#page-9") 
+        span Принципы нашей работы
+    
+    header
+      .wrapper
+        a(href="/")
+          h1.logotype Салон матрасов «Соня»
+
+        nav
+          a.selected(href="#") Ваш матрас
+          a(href="#") Салоны
+          a(href="#") Партнерам
+          a(href="#") Вопросы
+      
+        .phones
+          a.tel(href="tel:+73532661066") 
+            span +7 (353) 
+            | 266-10-66
+          a.tel(href="tel:+73532661199") 
+            span +7 (353) 
+            | 266-11-99
+
+        a.callback-button(href="#") Перезвоните мне
+
+    main
+
+      article#page-1
+        nav
+          .next
+          .prev
+        .slides
+          section.selected.slide-1.slide
+            .wrapper
+              .abstract
+                h2.title Просыпайтесь с удовольствием
+                p Здоровый сон - залог успешного дня. Пусть каждое ваше утро будет добрым.
+              a(href="#") Вместе с Соня
+          section.slide-2.slide
+            .wrapper
+              .abstract
+                h2.title Всегда рядом
+                p “Соня” это сеть фирменных салонов с едиными стандартами цены и качества. Наши продавцы консультанты ответят на все интересующие вас вопросы и помогут создать ваш идеальный матрас.
+              a(href="#") Адреса фирменных салонов
+          section.slide-3.slide
+            .wrapper
+              .abstract
+                h2.title Индивидуальный подход к каждому
+                p Секрет создания идеального матраса - индивидуальный подход. Мы используем уникальную методику подбора матраса и дарим вам комфорт и идеальный сон.
+              a(href="#") Наш подход
+          section.slide-4.slide
+            .wrapper
+              .abstract
+                h2.title Сервис с заботой
+                p Мы любим наших клиентов и заботимся о них. Поэтому мы изготавливаем матрас за рекордные 3 дня и доставляем его в удобное для вас время.
+              a(href="#") Подробнее о схеме работы
+          section.slide-5.slide
+            .wrapper
+              .abstract
+                h2.title Обладатель знака оренбургского качества
+                p Мы постоянно контролируем качество продукции на всех этапах производства, что гарантирует нашим клиентам отличный продукт и здоровый сон.
+              a(href="#") О нас
+
+      article#page-2
+        .wrapper
+          .abstract
+            h2.title Что нового?
+            h3.sub-title Вы сегодня хорошо спали?
+            p Ортопедический матрас, как и  мечты — у каждого свой. Поэтому мы предлагаем вам самим воплощать ваши мечты в жизнь, а Соня вам в этом поможет. 
+          .news
+            .list
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-2.jpg", alt="Иллюстрация")
+                  h2.title Запуск официального сайта
+                P В связи с запуском сайта мы подготовили подарок каждому покупателю.
+                p: a.details(href="#") Получить подарок
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-2.jpg", alt="Иллюстрация")
+                  h2.title Ёжики оккупировали матрасы!
+                P Толпы одиноких ежиков бродят по городу в поисках вашей ласки.
+                p: a.details(href="#") Усыновить ёжика
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-2.jpg", alt="Иллюстрация")
+                  h2.title Открыта вакансия
+                P Открыта вакансия копирайтера для написания текста вакансий.
+                p: a.details(href="#") Вписаться
+            nav
+              .page 1
+              .page 2
+              .page 3
+          .careers
+            .list
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-1.jpg", alt="Иллюстрация")
+                  h4.title Вакансии: требуется продавец-консультант
+                p В новый магазин-салон “Соня” требуется продавец-консультант.
+                p: a(href="#") Подробнее
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-1.jpg", alt="Иллюстрация")
+                  h4.title Вакансии: требуется тестировщик матрасов
+                p В новый магазин-салон “Соня” требуется тестировщик матрасов.
+                p: a(href="#") Подробнее
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-1.jpg", alt="Иллюстрация")
+                  h4.title Вакансии: требуется ёжик-грызун
+                p В новый магазин-салон “Соня” требуется ёжик-грызун.
+                p: a(href="#") Подробнее
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-1.jpg", alt="Иллюстрация")
+                  h4.title Вакансии: требуется грузчик
+                p В новый магазин-салон “Соня” требуется грузчик.
+                p: a(href="#") Подробнее
+              article
+                a.block-link(href="#")
+                  img.illustration(src="images/spoiler/illustration-1.jpg", alt="Иллюстрация")
+                  h4.title Вакансии: требуется покупатель
+                p В новый магазин-салон “Соня” требуется покупатель.
+                p: a(href="#") Подробнее
+            nav
+              .prev
+              .next
+
+
+      article#page-3
+        .wrapper
+          .abstract
+            h2.title Преимущества
+            h3.sub-title Матрасы “СОНЯ”— это:
+          .advantages
+            .column
+              section.advantage
+                h2.sub-title Ваш индивидуальный комфорт
+                ul
+                  li Каждый матрас создается индивидуально для Вас
+                  li Более 40 видов материалов обеспечивают неограниченный выбор
+                  li Срок изготовления - 3 дня и своевременная бесплатная доставка
+
+              section.advantage
+                h2.sub-title Гарантия качества
+                ul
+                  li Нашей продукции присвоен знак «Оренбургское качество».
+                  li Только гипоаллергенные, экологически чистые, сертифицированные, импортные материалы.
+                  li Обязательный контроль качества на всех этапах изготовления каждого изделия.
+            .column
+              section.advantage
+                h2.sub-title Сервис с заботой о Вас
+                ul
+                  li Салоны «СОНЯ» – это единая сеть с едиными стандартами цены и качества.
+                  li Гарантия от производителя - 2 года, срок эксплуатации превышает 10 лет.
+                  li Возможность оплаты как за наличный так и безналичный расчет, а также беспроцентная рассрочка.
+
+      article#page-4
+        .wrapper
+          h2.title Индивидуальность
+          p В салонах матрасов “Соня” мы используем индивидуальный подход к каждому клиенту. Универсальных<br> ортопедических матрасов не бывает! Мы скомплектуем индивидуально для вас именно ваш<br> ортопедический матрас.
+
+      article#page-5
+        .wrapper
+          .abstract
+            h2.title Закажите звонок
+            p Наши менеджеры свяжутся с вами в ближайшее время и вы сможете обсудить детали заказа. Приятных покупок!
+          form.secondary-callback-form(action="/request/call")
+            fieldset
+              input(type="text", name="name", required="required", value="", placeholder="Как к вам обращаться?")
+              input(type="tel", name="tel", required="required", value="", placeholder="Телефон")
+              button(type="submit") Перезвоните мне
+
+      article#page-6
+        .wrapper
+          h2.title Как это работает?
+          section.measurements
+            .icon
+            h3.sub-title Замеры
+            p Вы измеряете размер вашего спального места.
+          section.decore
+            .icon
+            h3.sub-title Оформление
+            p Оформляете заказ<br> в одном из наших салонов.
+          section.manufacturing
+            .icon
+            h3.sub-title Изготовление
+            p Мы изготавливаем ваш индивидуальный матрас.
+          section.delivery
+            .icon
+            h3.sub-title Доставка
+            p Через 3 дня доставляем его в удобное для вас время.
+          a.gift(href="#") Получить подарок
+
+      article#page-7
+        .wrapper
+          h2.title Отзывы
+          .responces
+            .responce-list
+              .responce(id="responce-1")
+                img(src="images/spoiler/face-1.jpg", alt="Фотография")
+                cite Заказали матрас в салоне “Соня”. Привезли его ровно через 3 дня в заранее обговоренное время. Очень доволен! Это именно то, чего нам не хватало для комфортного сна.
+                q.author Андрей
+              .responce(id="responce-2")
+                img(src="images/spoiler/face-2.jpg", alt="Фотография")
+                cite Матрас понравился. Выбрала не самый дорогой вариант, но сделали мне его как раз таким, как я и хотела - в меру жесткий, упругий, для меня идеально. Спина больше не болит, каждое утро доброе!
+                q.author Ольга Николаевна
+              .responce(id="responce-3")
+                img(src="images/spoiler/face-1.jpg", alt="Фотография")
+                cite Заказали матрас в салоне “Соня”. Привезли его ровно через 3 дня в заранее обговоренное время. Очень доволен! Это именно то, чего нам не хватало для комфортного сна.
+                q.author Андрей
+              .responce(id="responce-4")
+                img(src="images/spoiler/face-2.jpg", alt="Фотография")
+                cite Матрас понравился. Выбрала не самый дорогой вариант, но сделали мне его как раз таким, как я и хотела - в меру жесткий, упругий, для меня идеально. Спина больше не болит, каждое утро доброе!
+                q.author Ольга Николаевна
+              .responce(id="responce-5")
+                img(src="images/spoiler/face-1.jpg", alt="Фотография")
+                cite Заказали матрас в салоне “Соня”. Привезли его ровно через 3 дня в заранее обговоренное время. Очень доволен! Это именно то, чего нам не хватало для комфортного сна.
+                q.author Андрей
+              .responce(id="responce-6")
+                img(src="images/spoiler/face-2.jpg", alt="Фотография")
+                cite Матрас понравился. Выбрала не самый дорогой вариант, но сделали мне его как раз таким, как я и хотела - в меру жесткий, упругий, для меня идеально. Спина больше не болит, каждое утро доброе!
+                q.author Ольга Николаевна
+            nav
+
+      article#page-8
+        .wrapper
+          .abstract
+            h2.title О нас
+            p Мы являемся местным производителем и уже 9 лет успешно развиваемся на рынке Оренбургской области. С конца 2012 года мы открыли 6 фирменных салонов матрасов «Соня» и не планируем останавливаться на достигнутом.
+            p В 2013 году мы удостоились получения знака 
+            p.quality 
+              a(href="#") «Оренбургское качество»
+          ul
+            li 
+              span 9
+              p Лет на рынке
+            li 
+              span 6
+              p Фирменных<br> салонов
+            li 
+              span 70 000
+              p Выспавшихся<br> клиентов
+            li 
+              span 45
+              p Видов<br> наполнителей
+
+      article#page-9
+        .wrapper
+          h2.title Принципы нашей работы
+          ul
+            li Удовлетворение любого пожелания клиента при изготовлении матрасов.
+            li Безупречное качество производимой продукции.
+            li Кратчайшие сроки производства и прозрачная ценовая политика.
+          ul
+            li Высокая степень внимания к потребностям каждого клиента.
+            li Подробное консультирование клиентов по каждому наполнителю, чтобы максимально упростить выбор матраса.
+
+    footer
+      .wrapper
+        nav
+          h2.title Соня
+          a(href="#") Что нового?
+          a(href="#") Преимущества
+          a(href="#") Как это работает
+          a(href="#") О нас
+        nav
+          h2.title Ваш матрас
+          a(href="#") Видео тур
+          a(href="#") Правильный выбор
+          a(href="#") Ключевые параметры
+          a(href="#") Наполнители 
+        nav
+          h2.title Партнерам
+          a(href="#") Работа с нами
+          a(href="#") Оставить заявку
+        nav
+          h2.title Вопросы
+          a(href="#") Выбор матраса
+          a(href="#") Уход и эксплуатация
+          a(href="#") Качество продукции
+
+        .contacts
+          h2.title Контакты
+          p.salons
+            a(href="#") Адреса салонов
+          p.phones
+            a(href="tel:+73532661066") +7 (353) 266-10-66
+            a(href="tel:+73532661199") +7 (353) 266-11-99
+          p.emails
+            a(href="mailto:info@soberimatras.ru") info@soberimatras.ru
+          nav.social 
+            h3.sub-title Социальные сети:
+            a.vk(href="#") vk
+            a.gp(href="#") gp
+            a.fb(href="#") fb
+            a.ok(href="#") ok
+    
+    a.ask(href="#") Задать вопрос
+    
+    .lightbox
+
+    form.question-form.popup(action="/ask/", method="post")
+      fieldset
+        h2.title Задать вопрос
+        input(type="text", name="name", required="required", value="", placeholder="* ФИО")
+        input(type="tel", name="tel", value="", placeholder="Телефон")
+        input(type="email", name="email", required="required", value="", placeholder="* E-mail")
+        textarea(name="question", required="required", cols="30", rows="10", value="", placeholder="* Вопрос")
+        button(type="submit") Задать вопрос
+        a.close(href="#") Закрыть окно
+
+    .question-asked.popup
+      .wrapper
+        h2.title Сообщение отправлено.
+        p Мы ответим вам в ближайшее время.
+      a.close(href="#") Закрыть окно
+
+    .callback-requested.popup
+      .wrapper
+        h2.title Спасибо за проявленный интерес.
+        p Мы перезвоним вам по указанному номеру.
+      a.close(href="#") Закрыть окно
+
+    form.callback-form.popup(action="/callme/", method="post")
+      fieldset
+        h2.title Перезвоните мне
+        input(type="text", name="name", required="required", placeholder="ФИО", value="")
+        input(type="tel", name="tel", required="required", placeholder="Телефон", value="")
+        button(type="submit") Заказать звонок
+        a.close(href="#") Закрыть окно
+
+
+
+

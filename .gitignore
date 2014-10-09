@@ -1,0 +1,6 @@
+.*
+!.gitignore
+!.bowerrc
+*node_modules*
+src
+sftp-config.json

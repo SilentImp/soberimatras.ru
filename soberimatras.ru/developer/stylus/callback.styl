@@ -1,0 +1,132 @@
+.callback-form
+  display none
+  position fixed
+  z-index 1001
+  width 390px
+  line-height 290px
+  height 290px
+  top 0
+  bottom 0
+  left 0
+  right 0
+  margin auto
+  background #29538a
+  color #fff  
+  text-align center
+  &.validate
+    input:invalid
+      border-color #f39c12
+  .close
+    position absolute
+    font-size 0
+    line-height 0
+    overflow hidden
+    text-indent -999px
+    width 36px
+    height 33px
+    background url('../images/close.png') 50% 50% no-repeat
+    background-size 12px 11px
+    right 0px
+    top 0px
+  fieldset
+    display inline-block
+    vertical-align middle
+    line-height 0
+    margin -14px 0 0
+    .title
+      font-size 24px
+      line-height 28px
+      font-weight bold
+      text-transform uppercase
+      margin-bottom 25px
+    input
+      background none
+      border 1px solid #fff
+      width 258px 
+      height 33px
+      padding 0 15px
+      margin-bottom 10px
+      outline none
+      color #fff      
+      &::-webkit-input-placeholder
+        color #fff
+      &:-moz-placeholder
+        color #fff
+      &::-moz-placeholder
+        color #fff
+      &:-ms-input-placeholder
+        color #fff
+    button
+      background #F39C12
+      box-shadow none
+      border-style none
+      padding 0 20px
+      margin 18px 0 0
+      color #FFF  
+      text-transform uppercase
+      font-size 12px
+      line-height 35px
+      font-weight bold
+      cursor pointer
+      overflow visible
+      
+      
+  
+
+.callback-requested
+  display none
+  z-index 1001
+  position fixed
+  top 0
+  bottom 0
+  left 0
+  right 0
+  margin auto
+  width 611px
+  height 142px
+  line-height 142px
+  background #29538a
+  color #FFF 
+  text-align center
+  z-index 1000
+  .close
+    position absolute
+    font-size 0
+    line-height 0
+    overflow hidden
+    text-indent -999px
+    width 36px
+    height 33px
+    background url('../images/close.png') 50% 50% no-repeat
+    background-size 12px 11px
+    right 0px
+    top 0px
+  .wrapper
+    display inline-block
+    vertical-align middle
+    line-height 0
+    top -5px
+    position relative
+    .title
+      font-size 24px
+      line-height 28px
+      font-weight bold
+      text-transform uppercase
+      margin-bottom 7px
+    p
+      font-size 16px
+      line-height 18px
+      
+  
+.lightbox
+  display none
+  z-index 1000
+  position fixed
+  top 0
+  bottom 0
+  left 0
+  right 0
+  width 100%
+  height 100%
+  background-color rgba(0,0,0,.5)
+  
